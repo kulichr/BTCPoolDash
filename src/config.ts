@@ -13,4 +13,4 @@ export const TRACKED_WALLETS: TrackedWallet[] = [
 export const BLOCK_REWARD_BTC = 3.125
 
 /** GitHub repository URL for the footer link. Set to your repo (e.g. https://github.com/user/repo). */
-export const GITHUB_URL = ''
+export const GITHUB_URL = 'https://github.com/kulichr/BTCPoolDash/'
