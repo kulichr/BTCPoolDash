@@ -55,6 +55,6 @@ After changing `src/config.ts`, run `npm run build` again (or rebuild the Docker
 
 - **Pool address:** set **`VITE_POOL_API_URL`** in `.env` (and in Docker build when using Docker). Used by dev proxy and production build.
 - **Wallets:** edit **`src/config.ts`** → `TRACKED_WALLETS` only.
-- **GitHub link / block reward:** **`src/config.ts`** → `GITHUB_URL`, `BLOCK_REWARD_BTC`.
+- **Block reward:** **`src/config.ts`** → `GITHUB_URL`, `BLOCK_REWARD_BTC`.
 
 No other files need changes for a new deployment.
