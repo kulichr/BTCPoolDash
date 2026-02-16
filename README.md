@@ -49,7 +49,6 @@ After changing `src/config.ts`, run `npm run build` again (or rebuild the Docker
 | Where | What |
 |-------|------|
 | **`src/config.ts`** | `BLOCK_REWARD_BTC` – current block subsidy (default 3.125). Update after a halving if needed. |
-| **`src/config.ts`** | `GITHUB_URL` – set to your repo URL for the footer link (e.g. `https://github.com/user/pool-overview`). |
 | **`vite.config.ts`** | Default fallback for `VITE_POOL_API_URL` (the `192.168.1.209:2019` line) – change if you want a different default when `.env` is missing. |
 
 ---
