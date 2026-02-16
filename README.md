@@ -8,8 +8,6 @@ Dashboard for a Bitcoin mining pool: hashrate, miners, block height, network dif
 
 ![Pool Overview](docs/demo.png)
 
-*(Screenshot: save as `docs/demo.png` to show it above.)*
-
 ---
 
 ## Quick start
