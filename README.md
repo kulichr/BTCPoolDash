@@ -1,6 +1,6 @@
 # Pool Overview
 
-Dashboard for a Bitcoin mining pool: hashrate, miners, block height, network difficulty, uptime, 24h chart, leaderboard, blocks found, miner types, and reward calculator. Built with React, TypeScript, Vite, and Tailwind. Dark theme with orange accents.
+Dashboard for a Bitcoin mining pool: hashrate, miners, block height, network difficulty, uptime, 24h chart, leaderboard, blocks found, miner types, and reward calculator. Built with React, TypeScript, Vite, and Tailwind. Dark theme with orange accents. The application operates via API integration with Benjamin Wilson's Public Pool.
 
 ---
 
