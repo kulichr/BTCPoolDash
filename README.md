@@ -33,7 +33,6 @@ When you deploy to another server, pool, or set of wallets, change only the foll
 | **`.env`** | Copy `.env.example` to `.env` and set `VITE_POOL_API_URL` to your pool API URL (e.g. `http://your-pool:2019` or `https://pool.example.com`). No trailing slash. |
 | **Development** | The same `.env` is used: `vite.config.ts` reads `VITE_POOL_API_URL` for the dev proxy. If unset, it falls back to `http://192.168.1.209:2019`. |
 | **Production build** | Run `npm run build` **after** setting `.env` (or `export VITE_POOL_API_URL=...`). The URL is baked into the built app. |
-| **Docker** | Pass at build time: `docker build --build-arg VITE_POOL_API_URL=http://your-pool:2019 ...` or set in `.env` and use `docker compose up --build`. |
 
 So: **one variable, `VITE_POOL_API_URL`** – set it in `.env` (and in Docker build-arg when using Docker).
 
