@@ -5,8 +5,8 @@ import type { TrackedWallet } from './types'
  * Edit only here – the web UI has no add/remove buttons.
  */
 export const TRACKED_WALLETS: TrackedWallet[] = [
-  { address: 'bc1qcuwugdvdlklfgxayvx6efmyd354jhy8527ks84', name: 'Roman' },
-  { address: 'bc1qcvt2n9ygwswfsfdf58s24rux70q5xqudf6w69q', name: 'Thomas' },
+  { address: 'bc1qcuwug........yvx6efmyd354jhy8527ks84', name: 'Roman' },
+  { address: 'bc1qcvt2n9........qudf6w69q', name: 'Thomas' },
 ]
 
 /** Current Bitcoin block reward in BTC (subsidy per block). */
